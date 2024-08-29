@@ -18,7 +18,7 @@ document.querySelector('#submitWorkout').addEventListener('click', displayWorkou
 
 const addNewGoal = () => {
     const goalInput = document.querySelector('#goalInput').value;
-    const goalList = document.querySelector('#goalList');
+    const goalList = document.querySelectorAll('#goalList li');
     
     let isDuplicate = false;
 
